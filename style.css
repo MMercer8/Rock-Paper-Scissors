@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslateblue;
+    color: aliceblue;
+    padding: 100px 0px 100px 0px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#rock,
+#paper,
+#scissors {
+    margin: 15px;
+    padding: 10px;
+}
+#playAgain {
+    display: block;
+    margin: auto;
+
+}
+
+#main {
+    display: block;
+    margin: 10;
+    font-size: 30px;
+    text-align: center;
+}
+
+.winner {
+    font-size: 100px;
+    color:green;
+
+}
